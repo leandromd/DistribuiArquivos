@@ -22,6 +22,7 @@
         {
             string novoDiretorio = string.Empty;
 
+            //configurações: limite de tamanho máximo por pasta e limite de quantidade de arquivos por pasta
             const Int64 maxTamanho = (200 * 1000 * 1000); //200 MB
             const Int64 maxQuant = 50;
             Int64 tamanho = 0;
