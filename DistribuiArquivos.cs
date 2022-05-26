@@ -68,6 +68,13 @@
             return quantDiretorios;
         }
    
+        private void CriaDiretorio(string dir) 
+		{
+			Directory.CreateDirectory(dir);
+			//File.SetAttributes(dir, FileAttributes.Hidden | FileAttributes.System);  //deixa diretorio escondido
+		}
+
+        
     }
 
 }   
